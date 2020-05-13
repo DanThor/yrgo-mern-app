@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        [
+            "@babel/env",
+            {
+               "useBuiltIns": "usage"
+            }
+        ]
+    ],
+    "plugins": [
+        "babel-plugin-styled-components"
+    ]
+}

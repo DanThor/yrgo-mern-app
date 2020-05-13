@@ -1,0 +1,45 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "nodemon www-server/server.js & webpack-dev-server --hot --mode development",
+    "start": ""
+  },
+  "keywords": [],
+  "author": "Pierre Sköldborg <pierre.skoldborg@creuna.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.2",
+    "styled-components": "^5.0.1",
+    "styled-reset": "^4.1.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "classnames": "^2.2.6",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.24.0",
+    "react-router-dom": "^5.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4",
+    "winston": "^3.2.1"
+  }
+}
